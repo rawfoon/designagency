@@ -6,12 +6,12 @@ const SiteNavbar = () => {
 
     const current=usePathname();
     return (
-        <div className=" sticky top-4">
+        <div className=" sticky top-4 z-20">
             <nav className="  bg-transparent text-black flex justify-between mx-[5%] mt-10">
                 <div>
                     <a href="/#" className=" text-xl font-bold">Design<span className="text-orange-500">AGENCY</span></a>
                 </div>
-                <div>
+                <div className="z-20">
                     <ul className="flex">
                         <li>
                         <Link className={current==="/"?"text-sm mx-2 text-green-600 font-bold":"text-sm mx-2 text-gray-400 hover:text-gray-500 "} href={"/"}>Start</Link>
@@ -25,8 +25,9 @@ const SiteNavbar = () => {
                         <li>
                         <Link className={current==="/projects"?"text-sm mx-2 text-green-600 font-bold":"text-sm mx-2 text-gray-400 hover:text-gray-500 "} href={"/projects"}>Projects</Link>
                         </li>
+                        
                         <li>
-                        <Link className={current==="/login"?"text-sm mx-2 text-green-600 font-bold":"text-sm mx-2 text-gray-400 hover:text-gray-500 "} href={"/login"}>Login</Link>
+                        <Link className={"mx-3 px-8 py-3 font-semibold rounded text-black border-[1px] rounded-[10px] border-green-400 "} href={"/login"}>Login</Link>
                         </li>
                         <li>
                         <Link className={" px-8 py-3 font-semibold rounded text-white bg-green-400 "} href={"/signup"}>Sign Up</Link>
