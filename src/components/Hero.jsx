@@ -16,7 +16,7 @@ const Hero = async () => {
                 <div className='relative pt-24 lg:pt-40 pb-20 z-10'>
                     <div className='container mx-auto px-4'>
                         <div className='flex flex-wrap -mx-4'>
-                            <div className='w-full lg:w-1/2 px-4 mb-12 lg:mb-0 flex items-center'>
+                            <div className='w-full lg:w-1/2 px-4  lg:mb-0 flex items-center'>
                                 <div className='w-full text-center lg:text-left'>
                                     <div className='max-w-md mx-auto lg:mx-0'>
                                         <h2 className='mb-3 text-4xl lg:text-5xl font-bold font-heading'>
