@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Brands from "./Brands";
 async function getData(){
     const res=await fetch(process.env.BASE_URL+"api/HeroList");
     if(!res.ok){
@@ -10,7 +11,7 @@ async function getData(){
 const Hero = async () => {
     const data = await getData();
     return (
-        <div className="bg-[#D7F5DC] translate-y-[-70px]">
+        <div className="bg-[#D7F5DC] translate-y-[-70px] pb-10">
             <section className='relative '>
                 <div className='relative pt-24 lg:pt-40 pb-20 z-10'>
                     <div className='container mx-auto px-4'>
@@ -53,6 +54,7 @@ const Hero = async () => {
                     </div>
                 </div>
             </section>
+            <Brands/>
         </div>
     );
 };
