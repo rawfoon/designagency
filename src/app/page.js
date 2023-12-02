@@ -1,3 +1,4 @@
+import FeatureProjects from "@/components/FeatureProjects";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import WorkList from "@/components/WorkList";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero/>
       <WorkList/>
       <Stats/>
+      <FeatureProjects/>
   
     </main>
   )

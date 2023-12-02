@@ -26,7 +26,7 @@ const WorkList = async () => {
                 <FaChartLine className="bg-[#D7F5DC] block w-24 h-24 p-8 rounded-2xl"/>
                 <h3 className=" text-2xl my-4 font-semibold">{data[0].title}</h3>
                 <p className=" text-lg mb-6">{data[0].des}</p>
-                <a href="/#">Learn more <FaArrowRight className="inline" /></a>
+                <a className="px-4 py-3 rounded hover:bg-green-100  " href="/#">Learn more <FaArrowRight className="inline" /></a>
                 
                 
             </div>
@@ -34,7 +34,7 @@ const WorkList = async () => {
                 <FaRegHeart className="bg-[#D7F5DC] block w-24 h-24 p-8 rounded-2xl"/>
                 <h3 className=" text-2xl my-4 font-semibold">{data[1].title}</h3>
                 <p className=" text-lg mb-6">{data[1].des}</p>
-                <a href="/#">Learn more <FaArrowRight className="inline" /></a>
+                <a className="px-4 py-3 rounded hover:bg-green-100  " href="/#">Learn more <FaArrowRight className="inline" /></a>
                 
                 
             </div>
@@ -42,7 +42,7 @@ const WorkList = async () => {
                 <PiBagBold className="bg-[#D7F5DC] block w-24 h-24 p-8 rounded-2xl"/>
                 <h3 className=" text-2xl my-4 font-semibold">{data[2].title}</h3>
                 <p className=" text-lg mb-6">{data[2].des}</p>
-                <a href="/#">Learn more <FaArrowRight className="inline" /></a>
+                <a className="px-4 py-3 rounded hover:bg-green-100  " href="/#">Learn more <FaArrowRight className="inline" /></a>
                 
                 
             </div>
