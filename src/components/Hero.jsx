@@ -10,6 +10,7 @@ async function getData(){
 
 const Hero = async () => {
     const data = await getData();
+    console.log(data);
     return (
         <div className="bg-[#D7F5DC] translate-y-[-70px] pb-10">
             <section className='relative '>
@@ -21,12 +22,12 @@ const Hero = async () => {
                                     <div className='max-w-md mx-auto lg:mx-0'>
                                         <h2 className='mb-3 text-4xl lg:text-5xl font-bold font-heading'>
                                             <span>
-                                            Increase Your Customers Loyalty and Satisfaction
+                                            {data.title}
                                             </span>
                                             
                                         </h2>
                                         <p>
-                                        We help businesses like yours earn more customers, standout from competitors,  make more money
+                                        {data.description}
                                         </p>
                                     </div>
                                     <div className='max-w-sm mx-auto lg:mx-0'>
