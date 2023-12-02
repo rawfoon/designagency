@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main >
       <Hero/>
-      {/* <WorkList/> */}
+      <WorkList/>
       <Stats/>
   
     </main>
