@@ -10,7 +10,7 @@ async function getData(){
 
 const Hero = async () => {
     const data = await getData();
-    console.log(data);
+    // console.log(data);
     return (
         <div className="bg-[#D7F5DC] translate-y-[-70px] pb-10">
             <section className='relative '>
