@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import SiteNavbar from '@/components/SiteNavbar'
 import SiteFooter from '@/components/SiteFooter'
+import NextTopLoader from 'nextjs-toploader'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body >
+      {/* <NextTopLoader color="#269669" height={3} speed={200} /> */}
         <SiteNavbar/>
         {children}
         <SiteFooter/>
