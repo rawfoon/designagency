@@ -1,7 +1,7 @@
 import FeatureProjects from "@/components/FeatureProjects";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
-import Subcribe from "@/components/Subcribe";
+import Subscribe from "@/components/Subscribe";
 import WorkList from "@/components/WorkList";
 
 
@@ -12,7 +12,7 @@ export default function Home() {
       <WorkList/>
       <Stats/>
       <FeatureProjects/>
-      <Subcribe/>
+      <Subscribe/>
   
     </main>
   )

@@ -24,9 +24,9 @@ const Team = async () => {
                             <div key={i} className=" text-center  border rounded-2xl shadow-xl">
                                 <img src={item.image} alt="" className=" rounded-t-2xl " />
                                 <div className="flex mx-auto justify-center  h-12 w-36 text-xl text-[#737588] pt-3 rounded-[25px] gap-3 translate-y-[-170%]  bg-[#E3E3E3]">
-                                    <a href={item.facebook}><FaFacebookF/></a> <span className=" translate-y-[-5px]" >|</span>
-                                    <a href={item.twitter} ><FaTwitter/></a><span className=" translate-y-[-5px]">|</span>
-                                    <a href={item.instagram}><FaInstagram/></a>
+                                    <a target="_blank" href={item.facebook}><FaFacebookF/></a> <span className=" translate-y-[-5px]" >|</span>
+                                    <a target="_blank" href={item.twitter} ><FaTwitter/></a><span className=" translate-y-[-5px]">|</span>
+                                    <a target="_blank" href={item.instagram}><FaInstagram/></a>
                                 </div>
                                 <h1 className="text-3xl font-semibold translate-y-[-70%] ">{item.name}</h1>
                             </div>

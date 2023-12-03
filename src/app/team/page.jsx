@@ -1,4 +1,5 @@
-import Subcribe from "@/components/Subcribe";
+import Subscribe from "@/components/Subscribe";
+
 import Team from "@/components/Team";
 
 const Page = () => {
@@ -13,7 +14,7 @@ const Page = () => {
             </div>
         </div>
             <Team/>
-            <Subcribe/>
+            <Subscribe/>
            
         </>
     );

@@ -4,7 +4,7 @@ import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios"
 
-const Subcribe = () => {
+const Subscribe = () => {
 
     let [FormValue,SetFormValue]=useState({email:""})
     // const handleEmail= (e)=>{
@@ -60,4 +60,4 @@ const Subcribe = () => {
     );
 };
 
-export default Subcribe;
+export default Subscribe;
