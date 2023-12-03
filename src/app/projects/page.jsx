@@ -12,10 +12,10 @@ const Page = () => {
                 <h5>Home <span>{">"}</span> <span className="text-[#20B15A]">All Project</span></h5>
             </div>
             </div>
+        </div>
             <AllProject/>
             <Subscribe/>
             
-        </div>
             
         </>
     );
