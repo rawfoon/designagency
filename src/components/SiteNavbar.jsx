@@ -9,7 +9,7 @@ const SiteNavbar = () => {
         <div className=" sticky top-4 z-20">
             <nav className="  bg-transparent text-black flex justify-between mx-[5%] mt-10">
                 <div>
-                    <a href="/#" className=" text-xl font-bold">Design<span className="text-orange-500">AGENCY</span></a>
+                    <a href="/" className=" text-xl font-bold">Design<span className="text-orange-500">AGENCY</span></a>
                 </div>
                 <div className="z-20">
                     <ul className="flex">
@@ -24,6 +24,9 @@ const SiteNavbar = () => {
                         </li>
                         <li>
                         <Link className={current==="/projects"?"text-sm mx-2 text-green-600 font-bold":"text-sm mx-2 text-gray-400 hover:text-gray-500 "} href={"/projects"}>Projects</Link>
+                        </li>
+                        <li>
+                        <Link className={current==="/testimonials"?"text-sm mx-2 text-green-600 font-bold":"text-sm mx-2 text-gray-400 hover:text-gray-500 "} href={"/testimonials"}>Testimonials</Link>
                         </li>
                         
                         <li>
