@@ -1,3 +1,4 @@
+import Subscribe from "@/components/Subscribe";
 import Testimonial from "@/components/Testimonial";
 
 
@@ -13,6 +14,7 @@ const Page = () => {
         </div>
     </div>
             <Testimonial/>
+            <Subscribe/>
         </>
     );
 };
