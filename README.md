@@ -5,7 +5,7 @@ live link
 - Project with nextjs
 - 
 ## Live Link
-Hosted in Netlify -> [Design agency](https://designagency-7zal0jit4-rawfoon.vercel.app/)
+Hosted in vercel -> [Design agency](https://designagency-7zal0jit4-rawfoon.vercel.app/)
 
 
 
