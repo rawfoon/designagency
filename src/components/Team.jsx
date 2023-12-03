@@ -13,12 +13,12 @@ const Team = async () => {
     // console.log(data[1]);
     return (
         <div>
-            <section className="container mx-auto pb-16">
+            <section className="container mx-auto pb-16 px-[5%] md:px-0">
                 <div className="max-w-[450px] mt-14">
                     <h3 className="text-[#20B15A] text-xl font-medium">OUR TEAM MEMBER</h3>
                     <h1 className=" text-3xl font-semibold mt-5 ">Check our awesome team members</h1>
                 </div>
-                <div className=" mt-16 grid md:grid-cols-2 lg:grid-cols-4 justify-items-center">
+                <div className=" mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-3 px-[3%]  justify-items-center">
                     {data.map((item,i)=>{
                         return(
                             <div key={i} className=" text-center  border rounded-2xl shadow-xl">

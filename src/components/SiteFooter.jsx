@@ -5,7 +5,7 @@ const SiteFooter = () => {
     return (
         <div className="text-white bg-black">
             <div className="container mx-auto pt-10">
-                <div className="grid md:grid-cols-3">
+                <div className="grid md:grid-cols-3 px-[5%] md:px-0">
                 <div>
                     <h1 className=" text-[2.5rem] font-bold mb-3">WEB LOGO</h1>
                     <p>Some footer text about the  Agency. Just a little description to help people understand you better</p>

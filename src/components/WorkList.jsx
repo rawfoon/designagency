@@ -21,7 +21,7 @@ const WorkList = async () => {
            <div className="container mx-auto px-4">
            <h3 className=" text-xl text-[#20B15A] font-semibold">Work List</h3>
            <h3 className="text-3xl text-black font-semibold my-4">We provide the Perfect Solution <br/>to your business growth</h3>
-           <div className="flex my-20">
+           <div className="grid md:grid-cols-3 gap-4 my-20">
             <div className="w-full md:w-1/2 lg:w-1/3 mb-8 px-4 mx-6">
                 <FaChartLine className="bg-[#D7F5DC] block w-24 h-24 p-8 rounded-2xl"/>
                 <h3 className=" text-2xl my-4 font-semibold">{data[0].title}</h3>

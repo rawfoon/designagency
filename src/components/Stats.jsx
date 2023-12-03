@@ -14,7 +14,7 @@ const Stats = async () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-wrap">
                     <div className="mb-8 w-full md:w-1/2 lg:w-1/4 text-center">
-                       <div className="w-[290px] h-[288px] shadow-xl rounded-lg pt-[20%] ">
+                       <div className="max-w-[290px] max-h-[288px] mx-auto shadow-xl rounded-lg pt-[20%] ">
                        <span className="mb-6 inline-block  p-4 rounded bg-green-100">
                             <svg className="w-6 h-6 text-green-600" xmlns="http://www.w3.org/2000/svg"
                                  viewBox="0 0 20 20" fill="currentColor"><path
@@ -26,7 +26,7 @@ const Stats = async () => {
                        </div>
                     </div>
                     <div className="mb-8 w-full md:w-1/2 lg:w-1/4 text-center">
-                       <div className="w-[290px] h-[288px] shadow-xl rounded-lg pt-[20%] ">
+                       <div className="max-w-[290px] max-h-[288px] mx-auto shadow-xl rounded-lg pt-[20%] ">
                        <span className="mb-6 inline-block p-4 rounded bg-green-100">
                             <svg className="w-6 h-6 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor">
@@ -39,7 +39,7 @@ const Stats = async () => {
                        </div>
                     </div>
                     <div className="mb-8 w-full md:w-1/2 lg:w-1/4 text-center">
-                        <div className="w-[290px] h-[288px] shadow-xl rounded-lg pt-[20%] ">
+                        <div className="max-w-[290px] max-h-[288px] mx-auto shadow-xl rounded-lg pt-[20%] ">
 
                         <span className="mb-6 inline-block p-4 rounded bg-green-100">
                             <svg className="w-6 h-6 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -53,7 +53,7 @@ const Stats = async () => {
                                       </div>
                     </div>
                     <div className="mb-8 w-full md:w-1/2 lg:w-1/4 text-center">
-                        <div className="w-[290px] h-[288px] shadow-xl rounded-lg pt-[20%] ">
+                        <div className="max-w-[290px] max-h-[288px] mx-auto shadow-xl rounded-lg pt-[20%] ">
 
                         <span className="mb-6 inline-block p-4 rounded bg-green-100">
                             <svg className="w-6 h-6 text-green-600" xmlns="http://www.w3.org/2000/svg"

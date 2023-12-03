@@ -12,7 +12,7 @@ const AllProject = async () => {
     // console.log(data);
     return (
         <div>
-            <section className="container mx-auto pb-16">
+            <section className="container mx-auto pb-16 px-[5%] md:px-0">
                 <div className="max-w-[450px] mt-14">
                     <h3 className="text-[#20B15A] text-xl font-medium">OUR ALL SERVICES</h3>
                     <h1 className=" text-3xl font-semibold mt-5 ">We Provide BestWeb design services</h1>

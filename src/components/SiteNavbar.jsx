@@ -78,7 +78,7 @@ const SiteNavbar = () => {
                 <div className="z-20 hidden lg:flex">
                     <ul className="flex">
                         <li>
-                        <Link className={current==="/"?"text-base mx-1 md:mx-4 text-green-600 font-bold":"text-base mx-1 md:mx-4 text-black hover:text-green-500 hover:underline "} href={"/"}>Start</Link>
+                        <Link className={current==="/"?"text-base mx-1 md:mx-4 text-green-600 font-bold":"text-base mx-1 md:mx-4 text-black hover:text-green-500 hover:underline "} href={"/"}>Home</Link>
                         </li>
                         <li>
                         <Link className={current==="/team"?"text-base mx-1 md:mx-4 text-green-600 font-bold":"text-base mx-1 md:mx-4 text-black hover:text-green-500 hover:underline "} href={"/team"}>Team</Link>
@@ -127,7 +127,7 @@ const SiteNavbar = () => {
                     <div>
                         <ul>
                             <li className='mb-1'>
-                                <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/'}>Start</Link>
+                                <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/'}>Home</Link>
                             </li>
                             <li className='mb-1'>
                                 <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/team'}>Team</Link>
@@ -141,7 +141,15 @@ const SiteNavbar = () => {
                             <li className='mb-1'>
                                 <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/testimonials'}>Testimonials</Link>
                             </li>
+                            
                         </ul>
+                        <div className="mt-4">
+
+                        <Link className={"mx-3 px-6 py-2 font-semibold rounded text-black border-[1px] rounded-[10px] border-green-400 "} href={"/login"}>Login</Link>
+                        
+                        <Link className={" px-6 py-2 font-semibold rounded text-white bg-green-400 "} href={"/signup"}>Sign Up</Link>
+                        </div>
+                        
                     </div>
                 </nav>
             </div>
